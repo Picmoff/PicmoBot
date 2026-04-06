@@ -1,14 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "24h/Bot",
+    "username": "24hBot",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "Picmow.aternos.me",
     "port": 26001,
-    "version": "1.21.1",
+    "version": "1.21.11",
     "try-creative": true
   },
   "position": {
@@ -19,16 +19,16 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
+      "enabled": false,
       "password": "chalol78"
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": false,
-      "repeat": true,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
@@ -46,7 +46,7 @@
     "circle-walk": {
       "enabled": true,
       "radius": 4,
-      "speed": 3000
+      "speed": 2000
     },
     "look-around": {
       "enabled": true,
@@ -82,6 +82,6 @@
     }
   },
   "chat": {
-    "respond": false
+    "respond": true
   }
 }
